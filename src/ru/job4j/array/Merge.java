@@ -5,4 +5,14 @@ public class Merge {
         int[] rsl = new int[left.length + right.length];
         return rsl;
     }
+
+    public static boolean flag(int[] array, int num) {
+      boolean flag = false;
+        for (int i = 0; i < array.length; i++) {
+            if (array[i] == num) {
+                flag = true;
+            }
+        }
+      return flag;
+    }
 }
