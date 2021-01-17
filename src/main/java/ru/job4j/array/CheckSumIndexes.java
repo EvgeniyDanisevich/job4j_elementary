@@ -1,7 +1,5 @@
 package ru.job4j.array;
 
-import java.util.Arrays;
-
 public class CheckSumIndexes {
     public static int[] collectNewArray(int[][] data, int sum) {
         int check = 0;
